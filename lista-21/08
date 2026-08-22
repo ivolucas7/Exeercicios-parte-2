@@ -1,0 +1,53 @@
+lista = ["maça","banana","mamao"]
+
+print(lista)
+
+print(lista[1])
+#mostra o item especifico
+
+print(len(lista))
+#mostra quantos itens tem na lista 
+
+lista.append('laranja')
+#adiciona um item no final da lista
+print("lista apos o uso do append:",lista)
+
+lista.insert(4,'caqui')
+#adiciona um item onde voce desejar
+print("lista apos o uso do insert:",lista)
+
+lista.insert(3,'uva')
+print("com uva adicionado:",lista)
+#remove atraves do nome dado
+lista.remove('caqui')
+print("lista apos o uso do remove",lista)
+
+print(lista.pop(2))
+#remove o item pelo indice ou o ultimo se nao informar o indice
+print(lista)
+
+num = [1,2,3,4,5,6]
+print(num)
+#como inserir um valor 
+num.insert(1,0)
+print(num)
+#segunda forma de inserir um valor atraves da substituiçao
+
+num[1]=50
+print(num)
+
+usuario1 = ["MESQUITA","111.333.444-90","19/04/2007"]
+print(usuario1)
+
+usuario1[0]="mosquiteiro"
+print(usuario1)
+
+usuario1[2]="16/04/200"
+print(usuario1)
+
+usuario1.append('26 anos')
+print (usuario1)
+
+if "mosquiteiro" in usuario1: #Verifica se um item existe na lista
+    usuario1.remove("mosquiteiro")
+    print(usuario1)
